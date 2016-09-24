@@ -1,0 +1,4 @@
+array_filter ( $array, "callback_fucntion_name" );
+
+<code>array_filter()</code> is the function which iterates over every value in array and pass them to the callback function. If callback function returns true, then the current value is returned to the output otherwise not. Array keys are always preseved.
+
